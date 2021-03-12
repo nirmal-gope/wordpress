@@ -1,0 +1,114 @@
+/*
+Theme Name:  mon theme perso
+Author: Nirmal Gope
+Description: Theme Perso'
+Version: 1.0
+Text Domain: monthemeperso
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(233, 236, 205);
+    overflow-x: hidden;
+}
+.menuheader{
+    min-height: 20vh;
+}
+li{
+    list-style: none;
+}
+.haut-gauche
+ {
+    min-height: 20vh;
+}
+.haut-gauche img{
+    width: 17vw;
+    border-radius: 50%;
+}
+.haut-droite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+.haut-droite #wysiwyg_widgets_widget-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleheader {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleheader h1{
+    font-size: 5vw;
+}
+.entete{
+    padding: 0;
+    margin: 0;
+    min-height: 30vh 
+}
+.su-image-carousel,
+.su-image-carousel-item-content {
+    height: 30vh !important;
+    padding: 0;
+}
+.su-image-carousel-slides-style-default .su-image-carousel-item-content img {
+    border: 1px solid rgba(73, 61, 61, 0) !important;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.007) !important;
+    object-fit: cover;
+    object-position: center;
+}
+.milieu{
+    min-height: 70vh;
+}
+
+#wysiwyg_widgets_widget-4 img{
+   width: 100%;
+   padding: 0;
+}
+
+.bas-gauche
+ {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#a2a_share_save_widget-2,
+.addtoany_list {
+    width: 100%;  
+}
+.addtoany_list{
+    display: flex !important;
+    justify-content: space-around;
+
+}
+.bas-droite {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav_menu-2{
+    width: 100%;
+}
+#menu-menu-admin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu-menu-admin a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+
+}
+#menu-menu-admin a:hover {
+    color: rgb(252, 250, 250);
+    background-color: rgb(5, 5, 5);
+   
+}
